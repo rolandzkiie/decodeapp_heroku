@@ -1,0 +1,17 @@
+#moviepage{
+	display: none;
+	background-image: url("../images/watch_background.jpg");
+}
+
+#updatedeletepage{
+	display: none;
+}
+
+#addpage{
+display: none;
+  font-family: Arial, sans-serif;
+  background: url(../images/bg.jpg) no-repeat;
+  height: 850px;
+  margin: -19px;
+}
+

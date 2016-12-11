@@ -1,0 +1,276 @@
+.background1 {
+  width: 100%;
+  height: 800px;
+  background-image: url("../images/bg1.jpg");
+  padding-top: 100px;
+}
+
+.thumbnailzz .imgz{
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-style: solid;
+}
+
+.containersz {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 50px;
+}
+@media (min-width: 768px) {
+  .containersz {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .containersz {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .containersz {
+    width: 1170px;
+  }
+}
+
+
+.listss{
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+@media (min-width: 1200px) {
+  .listss {
+    float: left;
+  }
+  .listss {
+    width: 100%;
+  }
+.slim{
+
+  color: #000;
+  font-weight: bold;
+  font-family: Ravie;
+}
+
+.buttonss{
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: 440px;
+}
+@media (min-width: 1200px) {
+  .buttonss {
+    float: left;
+  }
+
+    .buttonss {
+    width: 66.66666667%;
+  }
+ 
+.imagess{
+  position: relative;
+  min-height: 1px;
+  padding-right: 1px;
+  padding-left: 1px;
+  margin-left: 350px;
+}
+.imagess {
+    width: 40.33333333%;
+}
+@media (min-width: 1200px) {
+.imagess {
+    float: left;
+}
+
+.headername { 
+  font-weight: bold;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #7C7C27;
+  border-color: #71713E;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #B3C63B;
+  border-color: #71713E;
+}
+
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  background-color: black;
+}
+
+
+.btn-lg,
+.btn-group-lg > .btn {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+}
+
+.groupsz {
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+.itemz {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  margin-bottom: -1px;
+  background-color: #fff;
+  border: 3px solid #ddd;
+}
+.itemz:first-child {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.itemz:last-child {
+  margin-bottom: 0;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+
+
+
+/*update ni sya*/
+
+
+.background2 {
+  width: 100%;
+  height: 900px;
+  background-image: url("bg.jpg");
+  padding-top: 0containerszpx;
+}
+
+.containers2 {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .containers2 {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .containers2 {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .containers2 {
+    width: 1170px;
+  }
+}
+
+
+.listss2{
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+@media (min-width: 1200px) {
+  .listss2 {
+    float: left;
+  }
+  .listss2 {
+    width: 100%;
+  }
+.slimz{
+  margin-left: -50px;
+}
+
+.buttonss2{
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: 450px;
+}
+@media (min-width: 1200px) {
+  .buttonss2 {
+    float: left;
+  }
+
+    .buttonss {
+    width: 66.66666667%;
+  }
+ 
+.btn-primary2 {
+  color: #fff;
+  background-color: #7C7C27;
+  border-color: #71713E;
+}
+
+.btn-primary2:hover {
+  color: #fff;
+  background-color: #B3C63B;
+  border-color: #71713E;
+}
+
+.btn-primary2:active,
+.btn-primary2.active, .btn-primary2 {
+  background-color: #7C7C27;
+}
+
+
+.btn-lg2,
+.btn-group-lg2 > .btn2 {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+  margin-left: 90%;
+  margin-top: 5px;
+}
+
+.groups {
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+
+.groups2 p {
+  color: #000;
+  font-size: 15px;
+  margin-left: 0px;
+  font-weight: bold;
+}
+
+.title2{
+  color: #000;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: Ravie;
+
+}
+.itemz2 {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  margin-bottom: -1px;
+  background-color: #fff;
+  border: 2px solid yellow;
+  width: 500px;
+  height: 30px;
+}
+.itemz2:first-child {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.itemz2:last-child {
+  margin-bottom: 0;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}

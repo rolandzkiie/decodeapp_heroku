@@ -1,8 +1,3 @@
-/*!
- * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
 
 body {
     width: 100%;
@@ -27,9 +22,6 @@ html {
     }
 }
 
-/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
-The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
-of those sections to manage the look and feel of the site. */
 
 .intro-section {
     height: 100%;
@@ -57,4 +49,44 @@ of those sections to manage the look and feel of the site. */
     padding-top: 150px;
     text-align: center;
     background: #eee;
+}
+
+#nextpage {
+    position: relative;
+    height: 435px;
+    width: 100%;
+    background-color: rgb(64, 64, 64);
+}
+
+
+#nextpage1 {
+    position: relative;
+    height: 435px;
+    width: 100%;
+    background-color: rgb(68, 42, 8);
+}
+
+#nextpage2 {
+    position: relative;
+    height: 435px;
+    width: 100%;
+    background-color: rgb(104, 0, 179);
+}
+
+.search input[type=text] {
+    width: 300px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: black;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+.search input[type=text]:focus {
+    width: 300px;
 }

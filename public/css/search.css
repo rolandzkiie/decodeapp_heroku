@@ -1,0 +1,136 @@
+/* search box*/
+.search_1{
+width:500px;
+height:30px;
+padding-left:15px;
+border-radius:6px;
+border:none;
+color:#0F0D0D;;
+font-weight:500;
+background-color:#E2EFF7;;
+-webkit-box-shadow:
+0 -2px 2px 0 rgba(199, 199, 199, 0.55),
+0 1px 1px 0 #fff,
+0 2px 2px 1px #fafafa,
+0 2px 4px 0 #b2b2b2 inset,
+0 -1px 1px 0 #f2f2f2 inset,
+0 15px 15px 0 rgba(41, 41, 41, 0.09) inset;
+-moz-box-shadow:
+0 -2px 2px 0 rgba(199, 199, 199, 0.55),
+0 1px 1px 0 #fff,
+0 2px 2px 1px #fafafa,
+0 2px 4px 0 #b2b2b2 inset,
+0 -1px 1px 0 #f2f2f2 inset,
+0 15px 15px 0 rgba(41, 41, 41, 0.09) inset;
+box-shadow:
+0 -2px 2px 0 rgba(199, 199, 199, 0.55),
+0 1px 1px 0 #fff,
+0 2px 2px 1px #fafafa,
+0 2px 4px 0 #b2b2b2 inset,
+0 -1px 1px 0 #f2f2f2 inset,
+0 15px 15px 0 rgba(41, 41, 41, 0.09) inset;
+}
+.submit_1{
+width:80px;
+height:35px;
+border: double 1px;
+background-image:url(images/search1.png);
+background-repeat: no-repeat;
+background-position: 17px 2px;
+background-color:transparent;
+-webkit-background-size:20px 20px;
+background-size:20px 20px;
+cursor:pointer;
+}
+
+
+.search_1:hover {
+	background-color: #B0B0B0;
+	border: 1px solid #fff;
+	color: #FFF;
+}
+
+
+.bookCreate {
+
+    background-color: grey;
+    position: absolute;
+    width: 100%
+    height: 900px;
+    padding: 200px 200px 200px 200px;
+}
+
+.sform-style-4{
+    margin-top: 20px;
+    width: 600px;
+    height: 600px;
+    font-size: 16px;
+    background: #495C70;
+    padding: 40px 15px 30px 50px;
+    border: 5px solid #53687E;
+}
+.sform-style-4 input[type=submit],
+.sform-style-4 input[type=button],
+.sform-style-4 input[type=text],
+.sform-style-4 input[type=email],
+.sform-style-4 textarea,
+.sform-style-4 label
+{
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 16px;
+    color: #fff;
+
+}
+.sform-style-4 label {
+    display:block;
+    margin-bottom: 10px;
+}
+.sform-style-4 label > span{
+    display: inline-block;
+    float: left;
+    width: 150px;
+}
+.sform-style-4 input[type=text],
+.sform-style-4 input[type=email] 
+{
+    background: transparent;
+    border: none;
+    border-bottom: 1px dashed #83A4C5;
+    width: 400px;
+    outline: none;
+    padding: 0px 0px 0px 0px;
+    font-style: italic;
+}
+.sform-style-4 textarea{
+    font-style: italic;
+    padding: 0px 0px 0px 0px;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px dashed #83A4C5;
+    width: 275px;
+    overflow: hidden;
+    resize:none;
+    height:20px;
+}
+
+.sform-style-4 textarea:focus, 
+.sform-style-4 input[type=text]:focus,
+.sform-style-4 input[type=email]:focus,
+.sform-style-4 input[type=email] :focus
+{
+    border-bottom: 1px dashed #D9FFA9;
+}
+
+.sform-style-4 input[type=submit],
+.sform-style-4 input[type=button]{
+    background: #576E86;
+    border: none;
+    padding: 8px 10px 8px 10px;
+    border-radius: 5px;
+    color: #A8BACE;
+}
+.sform-style-4 input[type=submit]:hover,
+.sform-style-4 input[type=button]:hover{
+background: #394D61;
+}

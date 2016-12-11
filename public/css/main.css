@@ -2,13 +2,6 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400|Passion+One:400");
 
-/*
-	Full Motion by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
-
-/* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
@@ -960,7 +953,7 @@
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #FF0000;
+			background-color: #C0C0C0;
 		}
 
 		input[type="submit"]:active,
@@ -1186,8 +1179,8 @@
 		position: relative;
 		text-align: center;
 		overflow: hidden;
-		height: 600px;
-		margin-top: -60px;
+		height: 700px;
+		margin-top: -150px;
 	}
 
 		#banner .inner {
@@ -1272,7 +1265,7 @@
 		}
 
 			#banner .more:hover {
-				background-color: red;
+				background-color: #B0B0B0;
 				border: 1px solid #fff;
 				color: #FFF;
 			}
@@ -1391,7 +1384,7 @@
 
 		#footer .inner h2{
 			color: #fff;
-			font-family: 'Lobster', arial;			
+			font-family: "Brush Script MT", cursive;			
 		}
 
 			@media screen and (max-width: 980px) {
@@ -1452,33 +1445,6 @@
 			margin-left: 500px;
 
 		}
-
-
-
-
-
-
-#watch{
-	display: none;
-}
-#addpage{
-	display: none;
-	background-color: #D5CECD;
-	height: 500px;
-}
-#signup{
-	display: none;
-	background-color: #D5CECD;
-	height: 500px;
-}
-#login{
-	display: none;
-	background-color: #D5CECD;
-	height: 500px;
-
-}
-
-
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 
 .login-pages {
@@ -1522,16 +1488,15 @@
   cursor: pointer;
 }
 .forms button:hover,.forms button:active,.forms button:focus {
-  background: #FB051B;
+  background: black;
 }
 .forms .messages {
   margin: 15px 0 0;
-  color: #000;
+  color: blue;
   font-size: 12px;
 }
-.forms .messages a {
-  color: #0017FF;
-  text-decoration: none;
+.login-forms .messages a {
+  color: blue;
 }
 .forms .register-forms {
   display: none;
@@ -1569,13 +1534,3 @@
 .containers .infos span .fas {
   color: #000;
 }
-
-
-
-
-
-
-
-
-
-
